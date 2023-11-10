@@ -1,0 +1,106 @@
+﻿@model PropertySystem.Models.w_room_info
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>w_room_info</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.link_name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.link_name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.stop_car_area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.stop_car_area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.construct_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.construct_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.road_area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.road_area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.room_area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.room_area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lh_area)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lh_area)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.room_number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.room_number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.remark)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.remark)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PropertySystem",
+    "\\PropertySystem\\PropertySystem",
+    "\\PropertySystem\\PropertySystem\\Views",
+    "\\PropertySystem\\PropertySystem\\Views\\Login"
+  ],
+  "SelectedNode": "\\PropertySystem\\PropertySystem\\Views\\Login\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}
